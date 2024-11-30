@@ -29,6 +29,8 @@ class Agent(object):
         ### refer to './yourteamname/create_model.ipynb' for a quick tutorial on how to use pickle
         # self.filename = './[yourteamname]/trained_model'
         # self.trained_model = pickle.load(open(self.filename, 'rb'))
+        self.filename = './agents/worldsbillionaires/nic_xgb_v0'
+        self.trained_model = pickle.load(open(self.filename, 'rb'))
 
         ### potentially useful for Part 2 -- When competition is between two agents
         ### and you want to keep track of the opponent's status
